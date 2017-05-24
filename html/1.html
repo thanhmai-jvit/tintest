@@ -1,0 +1,51 @@
+<script src="jquery-1.10.2.js"></script>
+
+<!-- <iframe src="http://vinaphone.com.vn/supports/bangmatinh"></iframe> -->
+
+
+<script type="text/javascript">
+
+$.ajax({url: "http://vinaphone.com.vn/supports/bangmatinh", 
+	type: 'GET',success: function(result){
+        console.log('asas')
+    }});
+	
+// var chieu1 = new Array();
+// var chieu2 = new Array();
+
+// for(var i =1; i<$('.box-content table tr').length;i++){
+
+// if( $($('.box-content table tr')[i]).find('td')[1] != undefined ) {
+// 	var temp = $($('.box-content table tr')[i]).find('td')[1].innerText.replace(/(\r\n|\n|\r)/gm,"");
+// 	if( temp == 'Hà Nội (cũ)' )
+// 		temp = 'Hà Nội';
+// 	chieu1.push(temp);
+// }
+// if( $($('.box-content table tr')[i]).find('td')[2] != undefined ) {
+// 	chieu2.push($($('.box-content table tr')[i]).find('td')[2].innerText.replace(/(\r\n|\n|\r)/gm,""));
+// }
+// if( $($('.box-content table tr')[i]).find('td')[4] != undefined ) {
+// 	var temp = $($('.box-content table tr')[i]).find('td')[4].innerText.replace(/(\r\n|\n|\r)/gm,"");
+// 	if( temp == 'Hà Nội (cũ)' )
+// 		temp = 'Hà Nội';
+// 	chieu1.push(temp);
+// }
+// if( $($('.box-content table tr')[i]).find('td')[5] != undefined ) {
+// 	chieu2.push($($('.box-content table tr')[i]).find('td')[5].innerText.replace(/(\r\n|\n|\r)/gm,""));
+// }
+
+// }
+
+// console.log(chieu1)
+// console.log(chieu2)
+// var html ='<select class="sl-tinhthanh">';
+// for(var i=0; i<chieu1.length;i++) {
+// 	html += '<option value="'+chieu2[i]+'">'+chieu1[i]+'</option>';
+// }
+// html +='</select>';
+
+// $('.box-content').append(html);
+
+</script>
+
+<div class="box-content"></div>
